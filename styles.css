@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 body {
     font-family: 'Roboto Slab', serif;
-    background-color: #e5fbfd;
+    background-color: #e9f5ff;
 }
 
 div{
@@ -19,7 +19,7 @@ div{
 }
 
 .navbar{
-    background-color: #32485C;
+    background-color: #0C2340;
 }
 
 .navbar-brand{
