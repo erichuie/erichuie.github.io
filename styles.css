@@ -1,35 +1,107 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
 body {
-    font-family: 'Roboto Slab', serif;
-    background-color: #e9f5ff;
+  font-family: 'Roboto Slab', serif;
+  /* background-color: #e9f5ff; */
 }
 
-div{
-    padding:5px;
+div {
+  padding: 5px;
 }
 
-#centerProfile{
-    height: 500px;
-    display: flex;
-    justify-content: center;
+#centerProfile {
+  height: 500px;
+  display: flex;
+  justify-content: center;
 }
 
-#intro{
-    font-size: 30px;
+#profilePhoto {
+  border-radius: 50%;
 }
 
-.navbar{
-    background-color: #0C2340;
+#intro {
+  font-size: 30px;
 }
 
-.navbar-brand{
-    color: #FFFEFC;
+.navbar {
+  background-color: #0C2340;
 }
 
-.nav-link{
-    color: #FFFEFC;
+.navbar-brand {
+  color: #FFFEFC;
 }
 
-.navbar-brand{
-    padding:10px;
+.nav-link {
+  color: #FFFEFC;
+}
+
+.navbar-brand {
+  padding: 10px;
+}
+
+.project-links {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.sharebanb {
+  flex-shrink: 0;
+  max-width: 100%;
+  max-height: 100%;
+  /* border: 5px solid #0C2340; */
+  /* width: 500px;
+    height: 280px; */
+}
+
+.jobly {
+  flex-shrink: 0;
+  max-width: 100%;
+  max-height: 100%;
+  /* border: 5px solid #0C2340; */
+  /* width: 500px;
+    height: 270px; */
+}
+
+.card-project {
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.card-project>img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-project h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-project p {
+  font-size: 12px;
+  opacity: .7;
+  margin: 0;
+}
+
+.card-project .card-project-info {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+}
+
+/* To stretch the link on top of the card div */
+.card-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
