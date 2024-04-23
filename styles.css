@@ -27,8 +27,15 @@ div {
   background-color: #0C2340;
 }
 
-.navbar-brand {
+.container-fluid-nav{
+  background-color: #0C2340;
+}
+
+.navbar-home-text{
   color: #FFFEFC;
+  text-align: center;
+  font-size: large;
+  margin: 0px;
 }
 
 .nav-link {
@@ -37,13 +44,7 @@ div {
 
 .navbar-brand {
   padding: 10px;
-}
-
-.project-links {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
+  color: #FFFEFC;
 }
 
 .sharebanb {
@@ -52,7 +53,7 @@ div {
   max-height: 100%;
   /* border: 5px solid #0C2340; */
   /* width: 500px;
-    height: 280px; */
+  height: 280px; */
 }
 
 .jobly {
@@ -61,7 +62,16 @@ div {
   max-height: 100%;
   /* border: 5px solid #0C2340; */
   /* width: 500px;
-    height: 270px; */
+  height: 270px; */
+}
+
+.project-links {
+  display: inline-flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* overflow: hidden; */
+  width: 100%;
+  float: left;
 }
 
 .card-project {
@@ -69,10 +79,14 @@ div {
   background: white;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   position: relative;
+  width: 100%;
+  height: 100%;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .card-project>img {
-  height: 200px;
+  height: 300px;
   width: 100%;
   object-fit: cover;
 }
@@ -105,3 +119,8 @@ div {
   left: 0;
   width: 100%;
 }
+
+.social-images{
+  display: inline-flex;
+}
+

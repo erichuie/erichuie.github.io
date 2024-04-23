@@ -12,13 +12,16 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg">
-    <a class="navbar-brand" href="#">Eric's Website</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarId"
+  <!-- <nav class="navbar navbar-expand-lg"> -->
+    <div class="container-fluid-nav text-center">
+      <p class="navbar-home-text">Eric's Website</p>
+      <!-- <a id="nav-logo-override" class="navbar-brand" href="#">Eric's Website</a> -->
+    </div>
+    <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarId"
       aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarId">
+    </button> -->
+    <!-- <div class="collapse navbar-collapse" id="navbarId">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
           <a class="nav-link" href="#aboutHeader">About Me</a>
@@ -27,13 +30,13 @@
           <a class="nav-link" href="#contactHeader">Contact</a>
         </li>
       </ul>
-    </div>
-  </nav>
+    </div> -->
+  <!-- </nav> -->
 
   <div class="container-fluid">
     <div class="row">
-      <div class="col shadow-lg bg-body-tertiary rounded" id="centerProfile">
-        <img src="images/ProfilePic.jpg" id="profilePhoto" width="400" height="500">
+      <div class="col " id="centerProfile">
+        <img class="shadow-lg" src="images/ProfilePic.jpg" id="profilePhoto" width="400" height="500">
       </div>
       <div class="col">
         <p id="intro"> Hi I'm Eric Huie and welcome to my website! I am a software developer currently residing in
@@ -75,21 +78,23 @@
             but I will always have a soft spot for music from early 2000s artists
             such as Maroon 5, Black Eyed Peas, Coldplay, and Eminem.</li>
         </ul>
-        <h1>
+        <!-- <h1>
           Resume
         </h1>
         <div class="col">
           <a href="./EricHuieResume.pdf" download="EricHuieResume">EricHuieResume.pdf</a>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
 
-  <h1>
-    Projects
-  </h1>
-  <div class="project-links">
+  <div class="container-fluid">
+    <h1>
+      Projects
+    </h1>
+  </div>
 
+  <div class="project-links">
     <div class="card-project">
       <img class="sharebanb" src="./images/sharebandb-example.jpg" alt="sharebandb-homepage">
       <div class="card-project-info">
@@ -98,7 +103,7 @@
           <p>description</p>
         </div>
       </div>
-      <a href="https://eric-sharebandb.onrender.com/">
+      <a class="card-link" href="https://eric-sharebandb.onrender.com/" target="_blank">
       </a>
     </div>
 
@@ -110,12 +115,9 @@
           <p>description</p>
         </div>
       </div>
-      <a href="https://eric-jobly.surge.sh/">
+      <a class="card-link" href="https://eric-jobly.surge.sh/" target="_blank">
       </a>
     </div>
-  </div>
-
-
   </div>
 
   <div class="container-fluid">
@@ -124,17 +126,16 @@
     </div>
     <div class="row">
       <div class="col">
-        <p>Cell: 510-364-5706</p>
-        <p>Email: erichuie97@gmail.com</p>
+        <p><b>Phone:</b> 510-364-5706</p>
+        <p><b>Email:</b> erichuie97@gmail.com</p>
 
       </div>
       <div class="row">
-        <div class="col">
-          <p>Socials:</p>
+        <b>Socials:</b>
+        <div class="col social-images">
           <a href="https://www.linkedin.com/in/eric-huie/">
             <img src="images/104493_linkedin_icon.png">
           </a>
-
           <a href="https://github.com/erichuie">
             <div class="rounded">
               <img src="images/211904_social_github_icon.png">
