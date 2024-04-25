@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Eric's Website</title>
+  <title>Eric Huie</title>
   <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
@@ -14,7 +14,7 @@
 <body>
   <!-- <nav class="navbar navbar-expand-lg"> -->
     <div class="container-fluid-nav text-center">
-      <p class="navbar-home-text">Eric's Website</p>
+      <p class="navbar-home-text">Eric Huie</p>
       <!-- <a id="nav-logo-override" class="navbar-brand" href="#">Eric's Website</a> -->
     </div>
     <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarId"
@@ -35,37 +35,26 @@
 
   <div class="container-fluid">
     <div class="row">
-      <div class="col " id="centerProfile">
+      <div class="col" id="centerProfile">
         <img class="shadow-lg" src="images/ProfilePic.jpg" id="profilePhoto" width="400" height="500">
       </div>
-      <div class="col">
-        <p id="intro"> Hi I'm Eric Huie and welcome to my website! I am a software developer currently residing in
-          Fremont, California.
-          Take a look through my site to learn a little more about me and how to get in touch with me!
+      <div class="col about-me">
+        <h1>About Me</h1>
+        <p class="intro"> Hi, I'm Eric Huie and welcome to my website!
+          I am a Backend Focused Web Developer who loves to build and manage
+          the backbone of web applications that drives user interaction with the platform
+          and empowers businesses. I have experience with many of today's relevant modern
+          web technologies, including React and Flask, as well as languages like JavaScript,
+          Python, and SQL. My goal is to contribute my skills and knowledge to create user-friendly
+          and seamless software products while continuing to learn and develop my skills as a developer.
         </p>
       </div>
     </div>
   </div>
 
-  <div class="container-fluid">
+  <!-- <div class="container-fluid">
     <div class="row">
       <div class="col">
-        <h1 id="aboutHeader">About Me</h1>
-        <p>My first introduction into technology was when my parents got me a Game Boy Advance for Christmas. I was
-          obsessed with the device
-          and how entertaining the games were and was always wondering how the screen could seemingly create something
-          out of nothing. As I kept growing, I saw the Game Boy Advance
-          turn into the Nintendo Switch, the CRT TVs turn into HD LCD screen TVs, and the big, boxy Apple Macintosh
-          computers turn into smaller form yet more powerful MacBooks.
-          And with each evolution of technology, I became more excited by each device's array of endless features and
-          wanted to learn more about how I could be involved with creating
-          such features. So I went to college at McGill University and graduated in 2020 with a Bachelor's Degree in
-          Software Engineering. After some setbacks caused from the Covid-19
-          pandemic, I started my first job as a Quality Assurance Engineer at the company Saviynt, which lasted for one
-          year. I then wanted to look for a developer focused role and
-          retrain my functional skills so I attended a web development bootcamp at Rithm School. My goal is to become a
-          Backend Software Developer focused in developing Web Applications.
-        </p>
         <h1>Other Interests</h1>
         <ul>
           <li>I continue to play and enjoy video games on PC and the Nintendo Switch. Some of my current favorite games
@@ -77,16 +66,16 @@
           <li>I really enjoy music and my tastes in genres constantly evolve. My current favorite genre is melodic EDM
             but I will always have a soft spot for music from early 2000s artists
             such as Maroon 5, Black Eyed Peas, Coldplay, and Eminem.</li>
-        </ul>
+        </ul> -->
         <!-- <h1>
           Resume
         </h1>
         <div class="col">
           <a href="./EricHuieResume.pdf" download="EricHuieResume">EricHuieResume.pdf</a>
-        </div> -->
+        </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <div class="container-fluid">
     <h1>
@@ -95,29 +84,31 @@
   </div>
 
   <div class="project-links">
-    <div class="card-project">
-      <img class="sharebanb" src="./images/sharebandb-example.jpg" alt="sharebandb-homepage">
-      <div class="card-project-info">
-        <div>
-          <h2>ShareB&B</h2>
-          <p>description</p>
+      <div class="col card-project">
+        <img class="sharebanb" src="./images/sharebandb-example.jpg" alt="sharebandb-homepage">
+        <div class="card-project-info">
+          <div>
+            <h2>ShareB&B</h2>
+            <p>description</p>
+          </div>
         </div>
+        <a class="card-link" href="https://eric-sharebandb.onrender.com/" target="_blank">
+        </a>
       </div>
-      <a class="card-link" href="https://eric-sharebandb.onrender.com/" target="_blank">
-      </a>
-    </div>
 
-    <div class="card-project">
-      <img class="jobly" src="./images/jobly-example.png" alt="jobly-jobs">
-      <div class="card-project-info">
-        <div>
-          <h2>Jobly</h2>
-          <p>description</p>
+      <div class="col card-project">
+        <img class="jobly" src="./images/jobly-example.png" alt="jobly-jobs">
+        <div class="card-project-info">
+          <div>
+            <h2>Jobly</h2>
+            <p>A job search board prototype loosely based off of popular sites
+              such as Indeed and Glassdoor. The frontend was created using React
+              and the backend was created using Express.</p>
+          </div>
         </div>
+        <a class="card-link" href="https://eric-jobly.surge.sh/" target="_blank">
+        </a>
       </div>
-      <a class="card-link" href="https://eric-jobly.surge.sh/" target="_blank">
-      </a>
-    </div>
   </div>
 
   <div class="container-fluid">
@@ -126,7 +117,6 @@
     </div>
     <div class="row">
       <div class="col">
-        <p><b>Phone:</b> 510-364-5706</p>
         <p><b>Email:</b> erichuie97@gmail.com</p>
 
       </div>
