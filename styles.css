@@ -87,11 +87,17 @@ body {
   background: white;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   position: relative;
+  top: 0;
+  transition: top ease 0.5s;
   /* width: 48%;
   height: 100%; */
   /* margin-left: 50px;
   margin-right: 50px; */
   /* margin: 30px; */
+}
+
+.card-project:hover {
+  top: -10px;
 }
 
 .card-project>img {
@@ -120,7 +126,6 @@ body {
   position: relative;
 }
 
-/* To stretch the link on top of the card div */
 .card-link {
   position: absolute;
   top: 0;
@@ -129,7 +134,17 @@ body {
   width: 100%;
 }
 
-.social-images{
+.social-images {
   display: inline-flex;
+}
+
+.social-links {
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+
+.social-links:hover {
+  top: -5px;
 }
 
